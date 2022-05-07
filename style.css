@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
     background: lightblue;
-    display: flex;
+    display: flex ;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -88,10 +88,47 @@ body{
     cursor: pointer;
 }
 .contactInfo ul li .icon{
-    
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo.Education li{
+    margin-bottom: 15px;
+}
+.contactInfo.Education h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.contactInfo.Education h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+.contactInfo.Education h4{
+    color: #fff;
+    font-weight: 300;
 }
 .container .right_side{
     position: relative;
     background: #fff;
     padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
 }
