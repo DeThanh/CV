@@ -201,4 +201,73 @@ p{
 .about.product a:hover{
     color: hotpink;
 }
-
+.about.tks {
+    margin: auto;
+    display: table;
+    font-size: 40px;
+}
+@media screen and (max-width: 800px){
+    .imgBx .left_side .right_side{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    .profileText .imgBx{
+        width: 150px;
+        height: 150px;
+    }
+    .about .bor .text{
+        font-size: 18px;
+    }
+    .profileText h2{
+        font-size: 1em;
+    }
+    .title{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .about .box .year_company h5{
+        font-size: 12px;
+    }
+    .about.about.achive a{
+        font-size: 12px;
+    }
+    .about.product a{
+        font-size: 12px;
+    }
+    .about  .tks{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 436px){
+    .profileText .imgBx{
+        width: 150px;
+        height: 150px;
+    }
+    .about .bor .text{
+        font-size: 15px;
+    }
+    .profileText h2{
+        font-size: 1em;
+    }
+    .title{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .about .box .year_company h5{
+        font-size: 12px;
+    }
+    .about.about.achive a{
+        font-size: 12px;
+    }
+    .about.product a{
+        font-size: 12px;
+    }
+    .about  .tks{
+        font-size: 20px;
+    }
+}
